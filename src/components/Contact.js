@@ -10,10 +10,10 @@ function Contact() {
         <div className="Contact">
             <img src={avatar} className="avatar">
             </img>
-            <div> 
+            <div className="status">
                 <h4 className="name">Leslie Rouzier</h4>
-                className="status">
-                <p className="status-online">{Online ? 'Online' : 'Offline'}</p>
+                <p className="status-online"></p>
+                <p>{Online ? 'Online' : 'Offline'}</p>
             </div>
         </div>
     )
