@@ -1,5 +1,6 @@
 import React from 'react';
 import App from '../App';
+import './style.css';
 
 const avatar = 'https://zupimages.net/up/20/14/w39m.png'
 
