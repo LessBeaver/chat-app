@@ -5,7 +5,7 @@ const avatar = 'https://zupimages.net/up/20/14/w39m.png'
 
 function Contact() {
     const Online = true;
-    const element = (
+    return (
         <div className="Contact">
             <img src={avatar} className="avatar">
             </img>
@@ -20,4 +20,4 @@ function Contact() {
     )
 };
 
-export default App;
+export default Contact;
