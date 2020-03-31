@@ -13,7 +13,7 @@ function Contact() {
             <div>
                 <h4 className="name">Leslie Rouzier</h4>
                 <div className="status status-online">
-                    <span className="status-text"><p>{Online ? 'Online' : 'Offline'}</p></span>
+                    <span className="status-text"><p></p>{Online ? 'Online' : 'Offline'}</span>
                 </div>
             </div>
         </div>
