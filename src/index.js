@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
